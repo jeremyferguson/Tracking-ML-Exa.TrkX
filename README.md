@@ -8,6 +8,8 @@
     
 ### Exa.TrkX Collaboration
 
+## Introduction
+This is a fork of a repository from the Exa.TrkX collaboration which contains a collection of ML pipelines. My contributions to this project were rewriting an algorithm for performing edge contraction on a graph to use vectorized PyTorch functions instead of straight-line functions. This rewritten algorithm can be found in `src/Pipelines/TrackML_Example/LightningModules/GNN/EdgePooling.py`. Additionally, I gave a presentation on this algorithm which can be found [here](https://iris-hep.org/fellows/JeremyFerguson.html)
 
 [Documentation](https://hsf-reco-and-software-triggers.github.io/Tracking-ML-Exa.TrkX/)
 
